@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    background-color: gray;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.giallo {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 0;
+    background-color: yellow;
+}
+
+.rosa {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+.primo {
+    float: left;
+}
+
+.secondo {
+    float: right;
+}
+main {
+    width: 250px;
+    height: 300px;
+    background-color: violet;
+    position: absolute;
+    left: 400px;
+    transform: translate(-50%);
+}
+
+footer {
+    width: 790px;
+    height: 75px;
+    background: skyblue;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
